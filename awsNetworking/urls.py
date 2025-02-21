@@ -19,6 +19,6 @@ from django.contrib import admin
 from django.urls import path, include
 
 urlpatterns = [
-    path("centeralNetworker/", include("centeralNetworker.urls")),
+    path("centralNetworker/", include("centralNetworker.urls")),
     path("admin/", admin.site.urls),
 ]
