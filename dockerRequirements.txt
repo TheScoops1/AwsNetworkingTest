@@ -1,0 +1,5 @@
+RUN sudo apt update
+RUN sudo add-apt-repository ppa:deadsnakes/ppa
+RUN sudo apt install python3.11
+RUN sudo apt install python3-pip
+
